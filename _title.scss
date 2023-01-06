@@ -32,4 +32,11 @@
       @include getFontStyle(5rem, 1.1, 700);
     }
   }
+  &_cap {
+    & > span {
+      display: block;
+      @include getFontStyle(1.125rem, 1.5);
+      color: $contrast-color;
+    }
+  }
 }
