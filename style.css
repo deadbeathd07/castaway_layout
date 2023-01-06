@@ -162,21 +162,6 @@ body {
 .title {
   color: inherit;
 }
-.title > span {
-  font-weight: 400;
-  font-size: 1.07em;
-  line-height: 1.173;
-  position: relative;
-}
-.title > span::after {
-  content: "";
-  background-image: url("decor_title.svg");
-  display: block;
-  position: absolute;
-  width: 160px;
-  height: 104px;
-  top: 0;
-}
 .title > strong {
   font-weight: 700;
   font-size: 5rem;
@@ -196,6 +181,21 @@ body {
   font-weight: 400;
   font-size: 0.94rem;
   line-height: 1.6;
+}
+.title_underline > span {
+  font-weight: 400;
+  font-size: 1.07em;
+  line-height: 1.173;
+  position: relative;
+}
+.title_underline > span::after {
+  content: "";
+  background-image: url("decor_title.svg");
+  display: block;
+  position: absolute;
+  width: 160px;
+  height: 104px;
+  top: 0;
 }
 
 .app-bar__title {

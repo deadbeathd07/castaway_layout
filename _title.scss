@@ -1,18 +1,5 @@
 .title {
   color: inherit;
-  & > span {
-    @include getFontStyle(1.07em, 1.173);
-    position: relative;
-    &::after {
-      content: "";
-      background-image: url("decor_title.svg");
-      display: block;
-      position: absolute;
-      width: 160px;
-      height: 104px;
-      top: 0;
-    }
-  }
   & > strong {
     @include getFontStyle(5rem, 1.1, 700);
   }
@@ -24,5 +11,20 @@
   }
   &_small {
     @include getFontStyle(0.94rem, 1.6);
+  }
+  &_underline {
+    & > span {
+      @include getFontStyle(1.07em, 1.173);
+      position: relative;
+      &::after {
+        content: "";
+        background-image: url("decor_title.svg");
+        display: block;
+        position: absolute;
+        width: 160px;
+        height: 104px;
+        top: 0;
+      }
+    }
   }
 }
