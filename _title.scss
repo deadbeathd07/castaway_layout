@@ -1,8 +1,5 @@
 .title {
   color: inherit;
-  & > strong {
-    @include getFontStyle(5rem, 1.1, 700);
-  }
   &_primary {
     @include getFontStyle(4.375rem, 1.257);
   }
@@ -25,6 +22,11 @@
         height: 104px;
         top: 0;
       }
+    }
+  }
+  &_strong {
+    & > strong {
+      @include getFontStyle(5rem, 1.1, 700);
     }
   }
 }

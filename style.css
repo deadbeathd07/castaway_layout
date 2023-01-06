@@ -162,11 +162,6 @@ body {
 .title {
   color: inherit;
 }
-.title > strong {
-  font-weight: 700;
-  font-size: 5rem;
-  line-height: 1.1;
-}
 .title_primary {
   font-weight: 400;
   font-size: 4.375rem;
@@ -196,6 +191,11 @@ body {
   width: 160px;
   height: 104px;
   top: 0;
+}
+.title_strong > strong {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 1.1;
 }
 
 .app-bar__title {
