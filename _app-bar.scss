@@ -1,0 +1,12 @@
+.app-bar {
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    & > * + * {
+      margin-left: 1.06rem;
+    }
+  }
+}

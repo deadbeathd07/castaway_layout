@@ -1,0 +1,22 @@
+.nav {
+  @include getFontStyle(1.125rem, 1.5);
+  &__list {
+    &_horisontal {
+      display: flex;
+      > * + * {
+        margin-left: 40px;
+      }
+    }
+  }
+  &__link {
+    color: inherit;
+    transition: color ease-out 0.3s;
+    &_active,
+    &_checked {
+      color: $contrast-color;
+    }
+  }
+  &_menu {
+    @include getFontStyle(1.0625rem, 1.588);
+  }
+}
