@@ -3,19 +3,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 3% 0;
-  &__img-wrapper {
-    position: relative;
-    &::before {
-      content: "";
-      background-image: url("decor_img.svg");
-      display: block;
-      position: absolute;
-      width: 68px;
-      height: 74px;
-      top: -26px;
-      left: -26px;
-    }
-  }
   &__image {
     width: 100%;
     height: auto;

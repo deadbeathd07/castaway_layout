@@ -1,0 +1,17 @@
+.decor {
+  position: relative;
+  &::before {
+    content: "";
+    background-image: url("decor_img.svg");
+    display: block;
+    position: absolute;
+    width: 68px;
+    height: 74px;
+  }
+  &_top::before {
+    top: -26px;
+  }
+  &_left::before {
+    left: -26px;
+  }
+}
