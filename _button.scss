@@ -1,0 +1,10 @@
+.button {
+  background-color: $contrast-color;
+  padding: 14px 15px 10px 20px;
+  border-radius: 6px;
+  color: inherit;
+  @include getFontStyle(1.063rem, 1, 59);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

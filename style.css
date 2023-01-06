@@ -219,6 +219,23 @@ body {
   left: -26px;
 }
 
+.episodes__header {
+  padding: 4% 0 5%;
+}
+
+.button {
+  background-color: #118da8;
+  padding: 14px 15px 10px 20px;
+  border-radius: 6px;
+  color: inherit;
+  font-weight: 59;
+  font-size: 1.063rem;
+  line-height: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 .footer__inner {
   display: grid;
   grid-template-columns: 3.5fr 1fr 1fr 3.5fr;
