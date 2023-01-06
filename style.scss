@@ -5,8 +5,12 @@
 @import "global.scss";
 @import "header.scss";
 @import "nav.scss";
-@import "intro.scss";
+@import "content-module.scss";
 @import "title.scss";
 @import "app-bar.scss";
 
 @import "footer.scss";
+
+.intro__title {
+    margin-bottom: 17%;
+  }
