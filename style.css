@@ -155,6 +155,9 @@ body {
 .content-module__description {
   max-width: 39.85%;
 }
+.content-module_reverse {
+  flex-direction: row-reverse;
+}
 
 .title {
   color: inherit;

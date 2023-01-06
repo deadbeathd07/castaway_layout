@@ -24,4 +24,7 @@
   &__description {
     max-width: 39.85%;
   }
+  &_reverse {
+    flex-direction: row-reverse;
+  }
 }
