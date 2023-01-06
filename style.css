@@ -105,9 +105,9 @@ body {
 }
 
 .nav {
-  font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.5;
+  font-weight: 400;
 }
 .nav__list_horisontal {
   display: flex;
@@ -123,9 +123,9 @@ body {
   color: #118da8;
 }
 .nav_menu {
-  font-weight: 400;
   font-size: 1.0625rem;
   line-height: 1.588;
+  font-weight: 400;
 }
 
 .content-module {
@@ -150,29 +150,29 @@ body {
   color: inherit;
 }
 .title_primary {
-  font-weight: 400;
   font-size: 4.375rem;
   line-height: 1.257;
+  font-weight: 400;
 }
 .title_secondary {
-  font-weight: 400;
   font-size: 4rem;
   line-height: 1.24;
+  font-weight: 400;
 }
 .title_main {
-  font-weight: 400;
   font-size: 4rem;
   line-height: 1.1;
+  font-weight: 400;
 }
 .title_small {
-  font-weight: 400;
   font-size: 0.94rem;
   line-height: 1.6;
+  font-weight: 400;
 }
 .title_underline > span {
-  font-weight: 400;
   font-size: 1.07em;
   line-height: 1.173;
+  font-weight: 400;
   position: relative;
 }
 .title_underline > span::after {
@@ -185,9 +185,9 @@ body {
   top: 0;
 }
 .title_strong > strong {
-  font-weight: 700;
   font-size: 5rem;
   line-height: 1.1;
+  font-weight: 700;
 }
 
 .app-bar__title {
@@ -220,6 +220,9 @@ body {
 }
 
 .episodes__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 4% 0 5%;
 }
 
@@ -228,12 +231,16 @@ body {
   padding: 14px 15px 10px 20px;
   border-radius: 6px;
   color: inherit;
-  font-weight: 59;
   font-size: 1.063rem;
-  line-height: 1;
+  line-height: 1.59;
+  font-weight: 400;
   border: none;
   outline: none;
+  transition: background-color ease-out 0.3s;
   cursor: pointer;
+}
+.button_active {
+  background-color: #0c667a;
 }
 
 .footer__inner {

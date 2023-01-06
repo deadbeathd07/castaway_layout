@@ -3,8 +3,12 @@
   padding: 14px 15px 10px 20px;
   border-radius: 6px;
   color: inherit;
-  @include getFontStyle(1.063rem, 1, 59);
+  @include getFontStyle(1.063rem, 1.59);
   border: none;
   outline: none;
+  transition: background-color ease-out 0.3s;
   cursor: pointer;
+  &_active {
+    background-color: darken($contrast-color, 10%);
+  }
 }
