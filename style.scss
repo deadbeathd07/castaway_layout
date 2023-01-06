@@ -12,9 +12,17 @@
 @import "episodes.scss";
 @import "button.scss";
 @import "description.scss";
+@import "card.scss";
 
 @import "footer.scss";
 
 .intro__title {
   margin-bottom: 17%;
+}
+
+.mark {
+  @include getFontStyle(1.125rem, 1.5);
+  padding: 0 1rem;
+  background-color: $bg-color;
+  border-radius: 6px;
 }

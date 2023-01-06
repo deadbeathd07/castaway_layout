@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: $bg-color-card;
+  padding: 3%;
+  border-radius: 32px;
+  &__image {
+    width: 100%;
+    height: auto;
+    max-width: calc(0.29 * 1330px);
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 64%;
+  }
+  &__number {
+    @include getFontStyle(1.0625rem, 1.59);
+    color: $contrast-color;
+  }
+  &__title {
+    max-width: 90%;
+  }
+  &__description {
+    @include getFontStyle(1.375rem, 1.5);
+    opacity: 0.7;
+  }
+}

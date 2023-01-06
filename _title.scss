@@ -6,6 +6,9 @@
   &_secondary {
     @include getFontStyle(4rem, 1.24);
   }
+  &_tertiary {
+    @include getFontStyle(3.56rem, 1.24);
+  }
   &_main {
     @include getFontStyle(4rem, 1.1);
   }
