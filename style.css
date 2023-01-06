@@ -134,19 +134,6 @@ body {
   align-items: center;
   margin: 3% 0;
 }
-.content-module__img-wrapper {
-  position: relative;
-}
-.content-module__img-wrapper::before {
-  content: "";
-  background-image: url("decor_img.svg");
-  display: block;
-  position: absolute;
-  width: 68px;
-  height: 74px;
-  top: -26px;
-  left: -26px;
-}
 .content-module__image {
   width: 100%;
   height: auto;
@@ -207,6 +194,24 @@ body {
 }
 .app-bar__list > * + * {
   margin-left: 1.06rem;
+}
+
+.decor {
+  position: relative;
+}
+.decor::before {
+  content: "";
+  background-image: url("decor_img.svg");
+  display: block;
+  position: absolute;
+  width: 68px;
+  height: 74px;
+}
+.decor_top::before {
+  top: -26px;
+}
+.decor_left::before {
+  left: -26px;
 }
 
 .footer__inner {
