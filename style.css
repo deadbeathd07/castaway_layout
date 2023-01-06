@@ -154,6 +154,11 @@ body {
   font-size: 4.375rem;
   line-height: 1.257;
 }
+.title_secondary {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1.24;
+}
 .title_main {
   font-weight: 400;
   font-size: 4rem;
