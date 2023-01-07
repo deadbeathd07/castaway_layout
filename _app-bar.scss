@@ -4,9 +4,21 @@
   }
   &__list {
     display: flex;
-    align-items: center;
+    align-items: start;
     & > * + * {
       margin-left: 1.06rem;
+    }
+  }
+  &__link_svg {
+    position: relative;
+    display: inline-block;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
     }
   }
 }
