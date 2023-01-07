@@ -154,6 +154,11 @@ body {
   line-height: 1.257;
   font-weight: 400;
 }
+.title_alter {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  font-weight: 400;
+}
 .title_secondary {
   font-size: 4rem;
   line-height: 1.24;
@@ -231,6 +236,9 @@ body {
   left: -26px;
 }
 
+.episodes {
+  margin-bottom: 16%;
+}
 .episodes__header {
   display: flex;
   align-items: center;
@@ -240,6 +248,9 @@ body {
 .episodes__main {
   display: flex;
   flex-direction: column-reverse;
+}
+.episodes__main > .card + .card {
+  margin-bottom: 60px;
 }
 
 .button {
@@ -318,6 +329,50 @@ body {
   font-size: 1.375rem;
   line-height: 1.5;
   font-weight: 400;
+  opacity: 0.7;
+}
+
+.form-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  border-radius: 2rem;
+  margin: 12% 0 15%;
+  padding: 4.5% 5.64% 5.64%;
+}
+.form-block__form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 45%;
+  width: 100%;
+}
+.form-block__form > * + * {
+  margin-top: 20px;
+}
+.form-block__field {
+  width: 100%;
+  padding: 26px 19px 27px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background-color: #191919;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+}
+.form-block__field::-moz-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+.form-block__field:-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.7;
+}
+.form-block__field::placeholder {
+  color: inherit;
   opacity: 0.7;
 }
 
